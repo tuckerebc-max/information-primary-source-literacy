@@ -1,0 +1,9 @@
+{
+  "artifact_id": "INFO-REP-001",
+  "skill_id": "EXP-INFO",
+  "status": "READY_WITH_CONDITIONS",
+  "information_need": {"question": "What can two conflicting public sources support about the named question?", "purpose": "reviewable source decision"},
+  "source_ids": ["SRC-INFO-001", "SRC-INFO-002"],
+  "uncertainties": ["creator intent and missing context require review"],
+  "next_action": "verify locators and rights before promoting a claim"
+}

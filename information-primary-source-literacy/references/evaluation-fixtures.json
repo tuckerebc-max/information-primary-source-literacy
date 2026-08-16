@@ -1,0 +1,10 @@
+{
+  "skill_id": "EXP-INFO",
+  "fixtures": [{
+    "id": "INFO-FIX-001",
+    "task": "Compare a contemporaneous public record with a later summary for a named historical question.",
+    "expected": ["information contract", "search/provenance record", "context before evaluation", "claim-fit judgment", "missingness", "ethical attribution"],
+    "critical_failures": ["invented locator", "primary-source-equals-truth", "unlogged search", "unsupported authority score"]
+  }]
+}
+

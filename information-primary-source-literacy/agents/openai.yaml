@@ -1,0 +1,7 @@
+interface:
+  display_name: "Information and Primary-Source Literacy"
+  short_description: "Trace source authority and provenance"
+  default_prompt: "Use $information-primary-source-literacy to build a source-grounded evidence and provenance record."
+policy:
+  allow_implicit_invocation: true
+

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Information and Primary-Source Literacy Artifact",
+  "type": "object",
+  "required": ["artifact_id", "status", "information_need", "source_records", "uncertainties", "next_action"],
+  "properties": {
+    "artifact_id": {"type": "string"},
+    "status": {"type": "string"},
+    "information_need": {"type": "object"},
+    "search_log": {"type": "array"},
+    "source_records": {"type": "array"},
+    "provenance_records": {"type": "array"},
+    "claim_fit_records": {"type": "array"},
+    "synthesis": {"type": "array"},
+    "missingness": {"type": "array"},
+    "ethical_use": {"type": "array"},
+    "learner_decisions": {"type": "array"},
+    "uncertainties": {"type": "array"},
+    "next_action": {"type": "string"}
+  },
+  "additionalProperties": true
+}

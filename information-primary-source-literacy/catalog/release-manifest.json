@@ -1,0 +1,12 @@
+{
+  "package_id": "EXP-INFO",
+  "competency_id": "COMP-INFO-SOURCE",
+  "name": "information-primary-source-literacy",
+  "version": "0.1.0",
+  "design_status": "READY_WITH_CONDITIONS",
+  "release_state": "REVIEW_PACKAGE_READY",
+  "source_snapshot": "2026-08-11",
+  "source_ledger": "references/construct-and-source-ledger.md",
+  "required_gates": ["source locators", "rights/currentness", "original fixtures", "accessibility", "independent QA"],
+  "prohibited_claims": ["universal source-quality score", "primary-source truth guarantee", "automated high-impact judgment"]
+}
